@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(45deg, #499bea 0%,#207ce5 100%);
+    color:white;
+    font-family: 'Raleway', sans-serif;
+}
+ .container{
+     height:210px;
+     width:50%;
+     position: relative;
+     top:50%;
+     left:50%;
+     transform:translate(-50%,80%);
+     text-align: center;
+     padding:10px;
+ }
+ #quote{
+     position: relative;
+     display: inline-block;
+     margin-bottom:20px;
+     padding-top:15px;
+    
+ }
+ #author{
+     text-align:right;
+     margin-bottom: 10px;
+ }
+ span{
+     display: inline-block;
+     font-size:50px;
+     margin-right: 10px;
+ }
+
+  #submit{
+     display:inline-block;
+     font-size:16px;
+     padding:10px 30px;
+     margin-bottom:10px;
+     border:none;
+     transition:all .3s ease-in-out;
+     cursor: pointer;
+     border-radius:3px;
+     
+ }
+ button:focus{
+     outline: none;
+ }
+ button:hover{
+    border:2px solid white;
+    background:rgb(17, 135, 225);
+    color:white;
+    outline-color: wheat;
+ }
+
+ @media screen and (max-width: 600px) {
+    .container{
+        height:210px;
+        width:90%;
+        position: relative;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,40%);
+        text-align: center;
+        padding:10px;
+       
+    }
+  }
